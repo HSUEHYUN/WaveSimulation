@@ -189,8 +189,8 @@ void App::PointerReleased(Windows::UI::Core::CoreWindow ^ sender, Windows::UI::C
 	m_mouseIsPressed = false;
 	m_mouseDeltaX = 0.f;
 	m_mouseDeltaY = 0.f;
-	//MessageDialog Dialog("Thank you for noticing this notice.", "Notice!");
-	// update.
+	MessageDialog Dialog("Thank you for noticing this notice.", "Notice!");
+	
 }
 
 void App::PointerMoved(Windows::UI::Core::CoreWindow ^ sender, Windows::UI::Core::PointerEventArgs ^ args)
